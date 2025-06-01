@@ -14,7 +14,7 @@ function Nate() {
         console.log(`Tell me who hurt you, and I'll bury them.`);
     } else {
     console.log(`Nate knows you're hiding something, and baby, secrets only make me hungrier.`);
-    setTimeout(Nate, 3000);
+    timeout = setTimeout(Nate, 3000);
     }
 }
 
